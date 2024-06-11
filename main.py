@@ -4,7 +4,7 @@ number = randomnumbers()
 
 for i in range(1,11):
     
-    game = randomgame(number=number)
+    game = randomgame(number)
     
     if game == True:
         print('Você ganhou :D')
