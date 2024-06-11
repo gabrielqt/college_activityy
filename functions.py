@@ -1,7 +1,7 @@
 from random import randint
 
 def randomnumbers():
-    number = randint(1,101)
+    number = randint(1,100)
     return number
 
 def randomgame(number):
