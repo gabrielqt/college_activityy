@@ -6,19 +6,18 @@ def randomnumbers():
 
 def randomgame(number):
     
-    usuario = int(input('Tente acertar o número sorteado:'))
+    usernumber = int(input('Tente acertar o número sorteado:'))
     
-    if usuario == number:
+    if usernumber == number:
         print('Você acertou')
         return True
     
-    return usuario
+    return usernumber
     
     
 def verify(randomnumber, usernumber):
     
     if randomnumber > usernumber:
-        
         
         return 'O número sorteado é maior'
     
